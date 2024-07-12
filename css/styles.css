@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+}
+
+#header {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+#container {
+  border: 2px solid blue;
+}
+#footer {
+  border: 2px solid green;
+}
+
+#blue {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+
+#red {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+#yellow {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+}
+#black {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
